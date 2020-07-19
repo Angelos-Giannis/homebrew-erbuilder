@@ -1,13 +1,13 @@
 class Erbuilder < Formula
   desc "CLI tool to generate an .er file based on profided go structures."
   homepage "https://github.com/eujoy/erbuilder"
-  url "https://github.com/eujoy/erbuilder/releases/download/v0.3.4/erbuilder-v0.3.4-darwin-amd64.tar.gz"
-  version "v0.3.4"
-  sha256 "44c1cf30c7717e9f9cfcdef7e0e459ec1dc4e456df8b9f6fa911f8ab6fa11e42"
+  url "https://github.com/eujoy/erbuilder/releases/download/v0.3.5/erbuilder-v0.3.5-darwin-amd64.tar.gz"
+  version "v0.3.5"
+  sha256 "e224b6902665248222d285d576859396979fd4b22d656b46d4789e53999d798b"
 
   if OS.linux?
-    url "https://github.com/eujoy/erbuilder/releases/download/v0.3.4/erbuilder-v0.3.4-linux-amd64.tar.gz"
-    sha256 "809385c85d8a9a4eda8e2eee9e583d0d71261ce1e3ec574acf6142d048b1767b"
+    url "https://github.com/eujoy/erbuilder/releases/download/v0.3.5/erbuilder-v0.3.5-linux-amd64.tar.gz"
+    sha256 "2ffd95119bd6aadcb239cad00da5c544637eab59b359420a234134d00b0dcb8a"
   end
 
   def install
