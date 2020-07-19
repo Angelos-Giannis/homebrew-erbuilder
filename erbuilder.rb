@@ -3,11 +3,11 @@ class Erbuilder < Formula
   homepage "https://github.com/Angelos-Giannis/erbuilder"
   url "https://github.com/Angelos-Giannis/erbuilder/releases/download/v0.3.3/erbuilder-v0.3.3-darwin-amd64.tar.gz"
   version "v0.3.3"
-  sha256 "4bb5b6d5d4d7e7da1cfc2d48bce9945448bdfdc6caeaeda1ccbf7fa618c64b13"
+  sha256 "5cc5e2b1c7f03e8759206e1dd36abe90bc4ef912f43d9e140ec5d26115c44888"
 
   if OS.linux?
     url "https://github.com/Angelos-Giannis/erbuilder/releases/download/v0.3.3/erbuilder-v0.3.3-linux-amd64.tar.gz"
-    sha256 "d8416a6a7f6fd83bad77221ef8f89416c404b7ce3674fc22b8e5e41c93a334e7"
+    sha256 "6621e07eca2c22233209b98f97b6da3b10e22ec7b0380bf4303654f32d3b587b"
   end
 
   def install
